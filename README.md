@@ -12,7 +12,7 @@ core/1.3/hamcrest-core-1.3.jar
 
 ## 4. Compile the files: 
 $ javac -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar" ./src/c/HybridTests.java ./src/c/Hybrid.java ./src/c/ElectricInterface.java ./src/c/GasolineInterface.java ./src/c/CarRunner.java
-(Note that HybridCar wasn't compiled, as that part of the lab was implemented in CarRunner.java
+(Note that HybridCar wasn't compiled, as that part of the lab was implemented in CarRunner.java)
 
 ## 5. To run the HybridTest, go to the directory that contains JUnit and Hamcrest and run
 $ java -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar:./src/c/" org.junit.runner.JUnitCore HybridTests
